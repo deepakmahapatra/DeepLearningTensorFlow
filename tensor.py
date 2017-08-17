@@ -4,7 +4,7 @@ from tensorflow.examples.tutorials.mnist import input_data
 print "Started"
 
 
-mnist=input_data.read_data_sets("/Users/deepakmahapatra/Desktop/deep",one_hot=True)
+mnist=input_data.read_data_sets(".",one_hot=True)
 
 n_nodes_hidden1= 100
 n_nodes_hidden2=100
